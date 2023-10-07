@@ -1,4 +1,4 @@
-## unit-testing-example
+# unit-testing-example
 
 Skeleton for a fantasy RPG game, which we will test the various components of.
 
@@ -20,7 +20,6 @@ npm install
     - dead dummy gives experience
     - alive dummy doesn't give experience
 
-
 ## Refactoring our tests
 
 Refactor the axe and dummy tests. Make sure that:
@@ -37,7 +36,6 @@ To achieve this create the following interfaces:
   - **Target**, implemented by **Dummy**
 - Make the **Hero** class testable, using **Dependency Injection**
 - Test if the hero receives XP when he kills a target
-
 
 ## Using mock objects
 
