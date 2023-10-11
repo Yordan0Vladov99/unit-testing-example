@@ -6,6 +6,7 @@ Skeleton for a fantasy RPG game, which we will test the various components of.
 
 ```bash
 git clone https://github.com/Yordan0Vladov99/unit-testing-example.git
+cd unit-testing-example
 npm install
 ```
 
