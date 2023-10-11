@@ -20,6 +20,21 @@ npm install
     - dead dummy gives experience
     - alive dummy doesn't give experience
 
+The test should be written in the following hierarchy:
+
+```txt
+tests
+└── unit
+    ├── axe.test.ts
+    └── dummy.test.ts
+```
+
+To perform the unit tests run:
+
+```bash
+npx jest
+```
+
 ## Refactoring our tests
 
 Refactor the axe and dummy tests. Make sure that:
@@ -36,6 +51,16 @@ To achieve this create the following interfaces:
   - **Target**, implemented by **Dummy**
 - Make the **Hero** class testable, using **Dependency Injection**
 - Test if the hero receives XP when he kills a target
+
+The test directory should have the following structure
+
+```txt
+tests
+└── unit
+    ├── axe.test.ts
+    ├── dummy.test.ts
+    └── hero.test.ts
+```
 
 ## Using mock objects
 
