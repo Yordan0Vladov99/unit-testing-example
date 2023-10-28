@@ -1,4 +1,6 @@
-class Dummy {
+import Target from "./Target";
+
+class Dummy implements Target {
   private _health: number;
   private _experience: number;
 

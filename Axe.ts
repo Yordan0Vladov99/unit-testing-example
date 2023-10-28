@@ -1,6 +1,8 @@
 import Dummy from "./Dummy";
+import Target from "./Target";
+import Weapon from "./Weapon";
 
-class Axe {
+class Axe implements Weapon {
   private _attackPoints: number;
   private durabilityPoints: number;
 
@@ -15,7 +17,7 @@ class Axe {
   getDurabilityPoints = () => this.durabilityPoints;
   setDurabilityPoints = (dp: number) => (this.durabilityPoints = dp);
 
-  attack = (target: Dummy) => {
+  attack = (target: Target) => {
     if (this.durabilityPoints <= 0) {
       throw new Error("Invalid Operation");
     }
