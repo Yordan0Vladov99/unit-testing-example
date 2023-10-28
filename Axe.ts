@@ -23,7 +23,7 @@ class Axe implements Weapon {
     }
 
     target.takeAttack(this._attackPoints);
-    this.durabilityPoints -= 1;
+    this.durabilityPoints += 1;
   };
 }
 
