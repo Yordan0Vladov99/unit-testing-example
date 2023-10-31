@@ -1,5 +1,5 @@
 export default interface Target {
   takeAttack: (_: number) => void;
-  GiveExperience: () => number;
+  giveExperience: () => number;
   isDead: () => boolean;
 }

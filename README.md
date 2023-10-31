@@ -66,3 +66,8 @@ tests
 ## Using mock objects
 
 - Refactor the hero tests to use **mock objects**
+
+## Running the game
+```bash
+npm run game
+```

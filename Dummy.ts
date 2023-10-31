@@ -16,7 +16,7 @@ class Dummy implements Target {
     this._health -= attackPoints;
   };
 
-  GiveExperience = () => {
+  giveExperience = () => {
     if (!this.isDead()) {
       throw new Error("Target is not dead.");
     }

@@ -22,7 +22,7 @@ class Hero {
     this._weapon.attack(target);
 
     if (target.isDead()) {
-      this._experience += target.GiveExperience();
+      this._experience += target.giveExperience();
     }
   };
 }
