@@ -22,7 +22,7 @@ describe("hero tests", () => {
 describe("hero tests with mock", () => {
   let hero: Hero;
   let target = jest.createMockFromModule<Target>("../../Target");
-  target.GiveExperience = jest.fn(() => 10);
+  target.giveExperience = jest.fn(() => 10);
   target.isDead = jest.fn(() => true);
 
   let weapon = jest.createMockFromModule<Weapon>("../../Weapon");

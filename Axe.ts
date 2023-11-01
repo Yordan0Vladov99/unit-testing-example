@@ -13,8 +13,8 @@ class Axe implements Weapon {
   getAttackPoints = () => this._attackPoints;
   setAttackPoints = (ap: number) => (this._attackPoints = ap);
 
-  getdurabilityPoints = () => this._durabilityPoints;
-  setdurabilityPoints = (dp: number) => (this._durabilityPoints = dp);
+  getDurabilityPoints = () => this._durabilityPoints;
+  setDurabilityPoints = (dp: number) => (this._durabilityPoints = dp);
 
   attack = (target: Target) => {
     if (this._durabilityPoints <= 0) {
